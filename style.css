@@ -1,0 +1,35 @@
+.turny {
+  width: 150px;
+  height: 165px;
+  display: block;
+  background-position:  top left;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  float: left;
+}
+
+.title {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-weight: 9000;
+  font-size: 48px;
+  text-transform: uppercase;
+  z-index: 1;
+  position: absolute;
+  color: #f5f5f5;
+  text-shadow:  2px 2px 0px #545454;
+  filter:  dropshadow(color = #545454, offx=2, offy=2);
+  top: 80px;
+  left:  25px;
+  display: none;
+}
+
+.hoverzone {
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 165px;
+  display: block;
+  position: absolute;
+  z-index: 9999;
+}
